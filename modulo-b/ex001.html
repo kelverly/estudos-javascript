@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu primeiro programa</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(39, 38, 38);
+        }
+        main{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        section{
+            background-color: aqua;
+            height: 400px;
+            width: 300px;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Olá, mundo!!</h1>
+        </section>
+    </main>
+
+
+
+
+    <script>
+       var nome = window.prompt("Qual é o seu nome?") /* cria uma caixa para digitar algo */
+    //    window.alert ("É um prazer te conhecer, " + nome ) //concatenação
+       window.alert ("É um prazer te conhecer, " + nome + "!" ) //concatenação
+    </script>
+</body>
+</html>
