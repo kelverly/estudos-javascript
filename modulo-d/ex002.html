@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Qual é o seu pais?</label>
+        <input type="text" name="txt1" id="itxt1">
+        <input type="button" value="Verificar" onclick="verificar()">
+    </form>
+    <div id="res">
+
+    </div>
+
+
+
+    <script>
+
+        function verificar(){
+            let pais = window.document.getElementById ('itxt1')
+            let res = window.document.getElementById('res')
+            let vel = (pais.value)
+            res.innerHTML = `<p>Seu pais é ${vel}</p>`
+            if( vel == 'Brasil'){
+                res.innerHTML += 'Brasileiro!!'
+            } else{
+                res.innerHTML += 'Estrageiro!!'
+            }
+        }
+    </script>
+</body>
+</html>
