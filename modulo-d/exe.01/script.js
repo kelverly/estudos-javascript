@@ -3,7 +3,9 @@ function carregar(){
     let img = document.getElementById('imagem')
     let data = new Date()
     let hora = data.getHours()
-    msg.innerHTML = ` Agora são ${hora} horas:`
+    let min = new Date 
+    let minut = min.getMinutes()
+    msg.innerHTML = ` Agora são ${hora} horas e ${minut} minutos:`
     if (hora >= 0 && hora < 12){
         img.src = 'img/manha.png'
         document.body.style.background = '#6494ed60'
