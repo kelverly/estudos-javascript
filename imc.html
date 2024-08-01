@@ -23,8 +23,8 @@
     event.preventDefault();
 
     // Obtém os valores de peso e altura
-    const peso = parseFloat(document.getElementById('peso').value);
-    const altura = parseFloat(document.getElementById('altura').value);
+    const peso = document.getElementById('peso');
+    const altura = document.getElementById('altura');
 
     // Calcula o IMC
     const imc = peso / (altura * altura);
