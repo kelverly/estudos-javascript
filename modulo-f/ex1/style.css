@@ -18,6 +18,13 @@ section{
     margin: auto;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.356);
 }
+#flista{
+    width: 140px;
+    margin: 10px;
+}
+input{
+    margin: 5px;
+}
 div{
     text-align: center;
     padding: 10px;
